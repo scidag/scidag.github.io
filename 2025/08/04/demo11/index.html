@@ -1,0 +1,703 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#FFF">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+<link rel="alternate" type="application/rss+xml" title="scidag" href="http://example.com/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="scidag" href="http://example.com/atom.xml" />
+<link rel="alternate" type="application/json" title="scidag" href="http://example.com/feed.json" />
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="/css/app.css?v=0.2.5">
+
+  
+
+<link rel="canonical" href="http://example.com/2025/08/04/demo11/">
+
+
+
+  <title>
+spring cloud |
+scidag的个人博客 = scidag = litao</title>
+<meta name="generator" content="Hexo 7.3.0"></head>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div id="loading">
+    <div class="cat">
+      <div class="body"></div>
+      <div class="head">
+        <div class="face"></div>
+      </div>
+      <div class="foot">
+        <div class="tummy-end"></div>
+        <div class="bottom"></div>
+        <div class="legs left"></div>
+        <div class="legs right"></div>
+      </div>
+      <div class="paw">
+        <div class="hands left"></div>
+        <div class="hands right"></div>
+      </div>
+    </div>
+  </div>
+  <div id="container">
+    <header id="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="inner">
+        <div id="brand">
+          <div class="pjax">
+          
+  <h1 itemprop="name headline">spring cloud
+  </h1>
+  
+<div class="meta">
+  <span class="item" title="创建时间：2025-08-04 19:05:05">
+    <span class="icon">
+      <i class="ic i-calendar"></i>
+    </span>
+    <span class="text">发表于</span>
+    <time itemprop="dateCreated datePublished" datetime="2025-08-04T19:05:05+08:00">2025-08-04</time>
+  </span>
+</div>
+
+
+          </div>
+        </div>
+        <nav id="nav">
+  <div class="inner">
+    <div class="toggle">
+      <div class="lines" aria-label="切换导航栏">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    <ul class="menu">
+      <li class="item title"><a href="/" rel="start">scidag的个人博客</a></li>
+    </ul>
+    <ul class="right">
+      <li class="item theme">
+        <i class="ic i-sun"></i>
+      </li>
+      <li class="item search">
+        <i class="ic i-search"></i>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+      </div>
+      <div id="imgs" class="pjax">
+        <ul>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gicitspjpbj20zk0m81ky.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipeubcbajj20zk0m8h1h.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipewr8iypj20zk0m8b29.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giclfdu6exj20zk0m87hw.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipexbei4hj20zk0m8npd.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipeuibk9fj20zk0m8ay2.jpg"></li>
+        </ul>
+      </div>
+    </header>
+    <div id="waves">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" />
+          <use xlink:href="#gentle-wave" x="48" y="3" />
+          <use xlink:href="#gentle-wave" x="48" y="5" />
+          <use xlink:href="#gentle-wave" x="48" y="7" />
+        </g>
+      </svg>
+    </div>
+    <main>
+      <div class="inner">
+        <div id="main" class="pjax">
+          
+  <div class="article wrap">
+    
+<div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+<i class="ic i-home"></i>
+<span><a href="/">首页</a></span>
+</div>
+
+    <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN">
+  <link itemprop="mainEntityOfPage" href="http://example.com/2025/08/04/demo11/">
+
+  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="image" content="/images/myavatar.jpg">
+    <meta itemprop="name" content="李涛">
+    <meta itemprop="description" content="litao, 李涛的个人博客">
+  </span>
+
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="scidag">
+  </span>
+
+  <div class="body md" itemprop="articleBody">
+    
+
+    <h2 id="一注册中心配置中心-spring-cloud-alibaba-nacos"><a class="markdownIt-Anchor" href="#一注册中心配置中心-spring-cloud-alibaba-nacos">#</a> 一。注册中心 / 配置中心 Spring Cloud Alibaba Nacos</h2>
+<h3 id="1注册中心"><a class="markdownIt-Anchor" href="#1注册中心">#</a> 1. 注册中心</h3>
+<h4 id="11-注册服务"><a class="markdownIt-Anchor" href="#11-注册服务">#</a> 1.1 注册服务</h4>
+<p>启动 nacos</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">startup.<span class="built_in">cmd</span> -m standalone</span><br></pre></td></tr></table></figure>
+<p>添加配置</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">spring:</span></span><br><span class="line">  <span class="attr">application:</span></span><br><span class="line">    <span class="attr">name:</span> <span class="string">product</span></span><br><span class="line">  <span class="attr">cloud:</span></span><br><span class="line">    <span class="attr">nacos:</span></span><br><span class="line">      <span class="attr">server-addr:</span> <span class="number">127.0</span><span class="number">.0</span><span class="number">.1</span><span class="string">:8848</span></span><br></pre></td></tr></table></figure>
+<p>在运行主程序时，会自动注册，在 localhost ：8848/nacos 即可查看注册的。</p>
+<p>服务名就是项目名</p>
+<h4 id="12-服务发现"><a class="markdownIt-Anchor" href="#12-服务发现">#</a> 1.2 服务发现</h4>
+<p>在 spring boot 主程序中添加</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@EnableDiscoveryClient</span><br></pre></td></tr></table></figure>
+<p>测试</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//使用DiscoverClient</span></span><br><span class="line"><span class="meta">@SpringBootTest</span></span><br><span class="line"><span class="meta">@RunWith(SpringRunner.class)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">DiscoveryClientTest</span></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    DiscoveryClient discoveryClient;</span><br><span class="line">    <span class="meta">@Test</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span>  <span class="title function_">DiscorverClientTest</span><span class="params">()</span>&#123;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span>(String service : discoveryClient.getServices())&#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;service = &quot;</span>+service);</span><br><span class="line">            <span class="comment">//获取ip+port</span></span><br><span class="line">            List&lt;ServiceInstance&gt; instances=discoveryClient.getInstances(service);</span><br><span class="line">             <span class="keyword">for</span>(ServiceInstance instance : instances)</span><br><span class="line">             &#123;</span><br><span class="line">                 System.out.println(<span class="string">&quot;ip：&quot;</span>+instance.getHost()+<span class="string">&quot;；&quot;</span>+<span class="string">&quot;port = &quot;</span>+instance.getPort());</span><br><span class="line">             &#125;</span><br><span class="line">             &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">//使用NacosServiceDiscovery</span><br><span class="line">@Autowired</span><br><span class="line">NacosServiceDiscovery nacosServiceDiscovery;</span><br><span class="line">@Test</span><br><span class="line">public void NacosTest() throws NacosException &#123;</span><br><span class="line">    List&lt;String&gt; services = nacosServiceDiscovery.getServices();</span><br><span class="line">    for (String s: services )&#123;</span><br><span class="line">        List&lt;ServiceInstance&gt; instances = nacosServiceDiscovery.getInstances(s);</span><br><span class="line">        for (ServiceInstance ser :instances)&#123;</span><br><span class="line">            System.out.println(&quot;ip：&quot;+ser.getHost()+&quot;；&quot;+&quot;port = &quot;+ser.getPort());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">@Tes</span><br></pre></td></tr></table></figure>
+<h4 id="13-基本api调用"><a class="markdownIt-Anchor" href="#13-基本api调用">#</a> 1.3 基本 Api 调用</h4>
+<p><img data-src="C:%5CUsers%5Clx%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1752650926394.png" alt="1752650926394"></p>
+<p>基本远程调用</p>
+<ul>
+<li>
+<p>配置类</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Configuration</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">restConfigration</span> &#123;</span><br><span class="line">   </span><br><span class="line">    <span class="meta">@Bean</span></span><br><span class="line">    <span class="keyword">public</span> RestTemplate <span class="title function_">get</span><span class="params">()</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">RestTemplate</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>1. 使用   RestTemplate 可以获取到远程数据</p>
+<p>2. 必须精确指定地址和端口</p>
+<p>3. 如果远程宕机将不可用期望：可以负载均衡调用，不用担心远程宕机</p>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">   <span class="keyword">public</span> Product <span class="title function_">getProductFormRemote</span><span class="params">(Long ProductId)</span>&#123;</span><br><span class="line"><span class="comment">//        List&lt;String&gt; services = discoveryClient.getServices();</span></span><br><span class="line"><span class="comment">//        String s = services.get(0);</span></span><br><span class="line">        List&lt;ServiceInstance&gt; instances = discoveryClient.getInstances(<span class="string">&quot;service-product&quot;</span>);</span><br><span class="line">        <span class="type">ServiceInstance</span> <span class="variable">serviceInstance</span> <span class="operator">=</span> instances.get(<span class="number">0</span>);</span><br><span class="line">        <span class="type">String</span> <span class="variable">url</span> <span class="operator">=</span> <span class="string">&quot;http://&quot;</span>+serviceInstance.getHost()+</span><br><span class="line">                <span class="string">&quot;:&quot;</span>+serviceInstance.getPort()+<span class="string">&quot;/product/&quot;</span>+ProductId;</span><br><span class="line">        System.out.println(url);</span><br><span class="line">        <span class="type">Product</span> <span class="variable">forObject</span> <span class="operator">=</span> restTemplate.getForObject(url, Product.class);</span><br><span class="line">        <span class="keyword">return</span> forObject;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p>负载均衡 1---------loadBalancerClient</p>
+<p>引入依赖</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-starter-loadbalancer<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>使用</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> Product <span class="title function_">getProductFormRemoteWithloadbalancerClient</span><span class="params">(Long ProductId)</span>&#123;</span><br><span class="line">       <span class="type">ServiceInstance</span> <span class="variable">choose</span> <span class="operator">=</span> loadBalancerClient.choose(<span class="string">&quot;service-product&quot;</span>);</span><br><span class="line">       <span class="type">String</span> <span class="variable">url</span> <span class="operator">=</span> <span class="string">&quot;http://&quot;</span>+choose.getHost()+</span><br><span class="line">               <span class="string">&quot;:&quot;</span>+choose.getPort()+<span class="string">&quot;/product/&quot;</span>+ProductId;</span><br><span class="line">       System.out.println(url);</span><br><span class="line">       <span class="type">Product</span> <span class="variable">forObject</span> <span class="operator">=</span> restTemplate.getForObject(url, Product.class);</span><br><span class="line">       <span class="keyword">return</span> forObject;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+<p>升级注解式负载均衡</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">在配置类中加@LoadBalanced</span><br><span class="line"></span><br><span class="line">@Configuration</span><br><span class="line">public class restConfigration &#123;</span><br><span class="line">    @LoadBalanced//注解时负载均衡</span><br><span class="line">    @Bean</span><br><span class="line">    public RestTemplate get()&#123;</span><br><span class="line">        return new RestTemplate();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"> </span><br><span class="line"><span class="comment">//在使用中将服务端口号，替换为项目名（在application.yml中配置的） 执行过程中会自动替换</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> Product <span class="title function_">getProductFormRemoteWithloadbalancerClientAnnocation</span><span class="params">(Long ProductId)</span>&#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        <span class="type">String</span> <span class="variable">url</span> <span class="operator">=</span> <span class="string">&quot;http://product/product/&quot;</span>+ProductId;</span><br><span class="line">        System.out.println(url);</span><br><span class="line">        <span class="type">Product</span> <span class="variable">forObject</span> <span class="operator">=</span> restTemplate.getForObject(url, Product.class);</span><br><span class="line">        <span class="keyword">return</span> forObject;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br></pre></td></tr></table></figure>
+<h3 id="2配置中心"><a class="markdownIt-Anchor" href="#2配置中心">#</a> 2. 配置中心</h3>
+<p>2.1 引入配置</p>
+<ul>
+<li>导入依赖</li>
+</ul>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.alibaba.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-starter-alibaba-nacos-config<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>在 nacos 浏览器上加配置</li>
+<li>在 application.yml 中配置 nacos 中加的配置文件</li>
+<li>在属性上加 @value</li>
+<li>在 controller 中加 @RefreshScope 实现自动刷新</li>
+</ul>
+<p>2.2 多环境使用</p>
+<h3 id="3扩展"><a class="markdownIt-Anchor" href="#3扩展">#</a> 3. 扩展：</h3>
+<p>1.DIscoveryClient  获取服务实例列表</p>
+<p>2.LoadBalancerClient 负载均衡的选择一个实例（要引入 spring-cloud- start - loadbalancer）</p>
+<p>3.RestTemplate 可以发起远程调用</p>
+<p>4. 引入 spring-cloud-start-alibaba-nacos-config 依赖配置 Nacos 地址</p>
+<p>5 添加 数据集（data-id），使用 spring.config.import 导入数据集</p>
+<p>6.@Value + @RefreshScope 取值 + 自动刷新</p>
+<p>7@ConfigurationProperties 批量绑定自动刷新</p>
+<p>8NacosConfigManager 监听配置变化<br>
+扩展：<br>
+配置优先级；namespace 区分环境、group 区分微服务、data-id 区分配置 实现 数据隔离 + 环境切换</p>
+<h2 id="二网关-spring-cloud-geteway"><a class="markdownIt-Anchor" href="#二网关-spring-cloud-geteway">#</a> 二。网关 Spring　Cloud　GeteWay</h2>
+<p>配置</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">spring:</span></span><br><span class="line">  <span class="attr">cloud:</span></span><br><span class="line">   <span class="attr">gateway:</span></span><br><span class="line">     <span class="attr">routes:</span></span><br><span class="line">       <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">item</span> <span class="comment"># 路由规则id，自定义，唯一</span></span><br><span class="line">         <span class="attr">uri:</span> <span class="string">lb://item-service</span> <span class="comment"># 路由的目标服务，lb代表负载均衡，会从注册中心拉取服务列表</span></span><br><span class="line">         <span class="attr">predicates:</span> <span class="comment"># 路由断言，判断当前请求是否符合当前规则，符合则路由到目标服务</span></span><br><span class="line">           <span class="bullet">-</span> <span class="string">Path=/items/**,/search/**</span> <span class="comment"># 这里是以请求路径作为判断规则</span></span><br><span class="line">       <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">cart</span></span><br><span class="line">         <span class="attr">uri:</span> <span class="string">lb://cart-service</span></span><br><span class="line">         <span class="attr">predicates:</span></span><br><span class="line">           <span class="bullet">-</span> <span class="string">Path=/carts/**</span></span><br><span class="line">       <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">user</span></span><br><span class="line">         <span class="attr">uri:</span> <span class="string">lb://user-service</span></span><br><span class="line">         <span class="attr">predicates:</span></span><br><span class="line">           <span class="bullet">-</span> <span class="string">Path=/users/**,/addresses/**</span></span><br><span class="line">       <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">trade</span></span><br><span class="line">         <span class="attr">uri:</span> <span class="string">lb://trade-service</span></span><br><span class="line">         <span class="attr">predicates:</span></span><br><span class="line">           <span class="bullet">-</span> <span class="string">Path=/orders/**</span></span><br><span class="line">       <span class="bullet">-</span> <span class="attr">id:</span> <span class="string">pay</span></span><br><span class="line">         <span class="attr">uri:</span> <span class="string">lb://pay-service</span></span><br><span class="line">         <span class="attr">predicates:</span></span><br><span class="line">           <span class="bullet">-</span> <span class="string">Path=/pay-orders/**</span></span><br></pre></td></tr></table></figure>
+<p>登录校验的过滤器</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br></pre></td><td class="code"><pre><span class="line">package com.scidag.getwat.filter;</span><br><span class="line"></span><br><span class="line">import com.hmall.common.exception.UnauthorizedException;</span><br><span class="line">import com.hmall.common.utils.CollUtils;</span><br><span class="line">import com.scidag.getwat.config.AuthProperties;</span><br><span class="line">import com.scidag.getwat.utils.JwtTool;</span><br><span class="line">import lombok.RequiredArgsConstructor;</span><br><span class="line">import org.springframework.boot.context.properties.EnableConfigurationProperties;</span><br><span class="line">import org.springframework.cloud.gateway.filter.GatewayFilterChain;</span><br><span class="line">import org.springframework.cloud.gateway.filter.GlobalFilter;</span><br><span class="line">import org.springframework.core.Ordered;</span><br><span class="line">import org.springframework.http.server.RequestPath;</span><br><span class="line">import org.springframework.http.server.reactive.ServerHttpRequest;</span><br><span class="line">import org.springframework.http.server.reactive.ServerHttpResponse;</span><br><span class="line">import org.springframework.stereotype.Component;</span><br><span class="line">import org.springframework.util.AntPathMatcher;</span><br><span class="line">import org.springframework.web.server.ServerWebExchange;</span><br><span class="line">import reactor.core.publisher.Mono;</span><br><span class="line"></span><br><span class="line">import java.util.Comparator;</span><br><span class="line">import java.util.List;</span><br><span class="line"></span><br><span class="line">@Component</span><br><span class="line">@RequiredArgsConstructor</span><br><span class="line">@EnableConfigurationProperties(AuthProperties.class)</span><br><span class="line">public class AuthGlobalFilter implements GlobalFilter, Ordered &#123;</span><br><span class="line">    AntPathMatcher antPathMatcher =new AntPathMatcher();</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    private   final AuthProperties authProperties;</span><br><span class="line">    private final JwtTool jwtTool;</span><br><span class="line">    @Override</span><br><span class="line">    public Mono&lt;Void&gt; filter(ServerWebExchange exchange, GatewayFilterChain chain) &#123;</span><br><span class="line">        //1.拿request</span><br><span class="line">        ServerHttpRequest request = exchange.getRequest();</span><br><span class="line">        //判断是否是要判断登录校验的页面</span><br><span class="line">        if (isEnclude(request.getPath().toString()))&#123;</span><br><span class="line">            return chain.filter(exchange);</span><br><span class="line">        &#125;</span><br><span class="line">         // 3.获取请求头中的token</span><br><span class="line">        String token = null;</span><br><span class="line">        List&lt;String&gt; authorization = request.getHeaders().get(&quot;authorization&quot;);</span><br><span class="line">        if (authorization != null &amp;&amp; !(CollUtils.isEmpty(authorization)))&#123;</span><br><span class="line">           token = authorization.get(0);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        //4.校验并解析token</span><br><span class="line">        Long userid;</span><br><span class="line">        try &#123;</span><br><span class="line">            userid = jwtTool.parseToken(token);</span><br><span class="line"></span><br><span class="line">        &#125;catch (UnauthorizedException e)</span><br><span class="line">        &#123;</span><br><span class="line">            ServerHttpResponse response = exchange.getResponse();</span><br><span class="line">            response.setRawStatusCode(401);</span><br><span class="line">            return response.setComplete();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        //  5.如果有效，传递用户信息</span><br><span class="line">        System.out.println(&quot;userId = &quot; + userid);</span><br><span class="line">        String userInfo = userid.toString();</span><br><span class="line">        ServerWebExchange swe = exchange.mutate().request(builder -&gt;</span><br><span class="line">            builder.header(&quot;user_info&quot;, userInfo)).build();</span><br><span class="line">        return chain.filter(swe);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    private boolean isEnclude(String string) &#123;</span><br><span class="line">        for(String s :authProperties.getExcludePaths() )&#123;</span><br><span class="line">            if (antPathMatcher.match(s,string)) &#123;</span><br><span class="line">                return true;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        return false;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    @Override</span><br><span class="line">    public int getOrder() &#123;</span><br><span class="line">        return 0;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>其他拦截器，存 threadLocal</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.hmall.common.interceptor;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> cn.hutool.core.util.StrUtil;</span><br><span class="line"><span class="keyword">import</span> com.hmall.common.utils.UserContext;</span><br><span class="line"><span class="keyword">import</span> org.apache.catalina.User;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.servlet.HandlerInterceptor;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServletRequest;</span><br><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServletResponse;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">UserInfoInterceptor</span> <span class="keyword">implements</span> <span class="title class_">HandlerInterceptor</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">preHandle</span><span class="params">(HttpServletRequest request, HttpServletResponse response, Object handler)</span></span><br><span class="line">            <span class="keyword">throws</span> Exception &#123;</span><br><span class="line">        <span class="type">String</span> <span class="variable">userInfo</span> <span class="operator">=</span> request.getHeader(<span class="string">&quot;user_info&quot;</span>);</span><br><span class="line">        <span class="keyword">if</span> (StrUtil.isNotBlank(userInfo))&#123;</span><br><span class="line">            UserContext.setUser(Long.valueOf(userInfo));</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">afterCompletion</span><span class="params">(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex)</span> <span class="keyword">throws</span> Exception &#123;</span><br><span class="line"></span><br><span class="line">        UserContext.removeUser();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="三远程调用-spring-cloud-openfeign"><a class="markdownIt-Anchor" href="#三远程调用-spring-cloud-openfeign">#</a> 三。远程调用： Spring Cloud OpenFeign</h2>
+<h5 id="openfeign-对resttemplete-的升级"><a class="markdownIt-Anchor" href="#openfeign-对resttemplete-的升级">#</a> OpenFeign 对 RestTemplete 的升级</h5>
+<p>​	声名式的 http 请求</p>
+<h6 id="快速入门"><a class="markdownIt-Anchor" href="#快速入门">#</a> 快速入门</h6>
+<ol>
+<li>
+<p>引入依赖</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--openFeign--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-starter-openfeign<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!--负载均衡器--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-starter-loadbalancer<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>启用 OpenFeign</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@EnableFeignClients//在要发送请求的模块的Application 加上次注解</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>OpenFeign 客户端</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.scidag.cart.client;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.scidag.cart.domain.dto.ItemDTO;</span><br><span class="line"><span class="keyword">import</span> org.springframework.cloud.openfeign.FeignClient;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.GetMapping;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RequestParam;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.Collection;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="meta">@FeignClient(&quot;item-service&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">ItemClient</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@GetMapping(&quot;/items&quot;)</span></span><br><span class="line">    List&lt;ItemDTO&gt; <span class="title function_">queryItemByIds</span><span class="params">(<span class="meta">@RequestParam(&quot;ids&quot;)</span> Collection&lt;Long&gt; ids)</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>使用自己编写的客户端名 ItemClient 调用 自己写的 queryItemByIds</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">List&lt;ItemDTO&gt; items = itemClient.queryItemByIds(itemIds);</span><br></pre></td></tr></table></figure>
+<p>这一行代码等同于</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">List&lt;ServiceInstance&gt; instances = discoveryClient.getInstances(&quot;item-service&quot;);</span><br><span class="line">       ServiceInstance serviceInstance = instances.get(RandomUtil.randomInt(instances.size()));</span><br><span class="line">   </span><br><span class="line">       //2. 1，通过RestTemplate</span><br><span class="line">       ResponseEntity&lt;List&lt;ItemDTO&gt;&gt; response = restTemplate.exchange(</span><br><span class="line">               serviceInstance.getUri()+&quot;/items?ids=&#123;ids&#125;&quot;,</span><br><span class="line">               HttpMethod.GET,</span><br><span class="line">               null,</span><br><span class="line">               new ParameterizedTypeReference&lt;List&lt;ItemDTO&gt;&gt;() &#123;</span><br><span class="line">               &#125;,</span><br><span class="line">               Map.of(&quot;ids&quot;,CollUtils.join(itemIds,&quot;,&quot;))</span><br><span class="line">       );</span><br><span class="line">   </span><br><span class="line">       // 2.2.解析响应</span><br><span class="line">       if(!response.getStatusCode().is2xxSuccessful())&#123;</span><br><span class="line">           // 查询失败，直接结束</span><br><span class="line">           return;</span><br><span class="line">       &#125;</span><br><span class="line">       List&lt;ItemDTO&gt; items = response.getBody();</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h6 id="加入连接池提高性能"><a class="markdownIt-Anchor" href="#加入连接池提高性能">#</a> 加入连接池，提高性能</h6>
+<ul>
+<li>引入依赖</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--OK http 的依赖 --&gt;</span><br><span class="line">&lt;dependency&gt;</span><br><span class="line">  &lt;groupId&gt;io.github.openfeign&lt;/groupId&gt;</span><br><span class="line">  &lt;artifactId&gt;feign-okhttp&lt;/artifactId&gt;</span><br><span class="line">&lt;/dependency&gt;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>
+<p>开启</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">feign:</span><br><span class="line">  okhttp:</span><br><span class="line">    enabled: true # 开启OKHttp功能</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="四服务熔断-spring-cloud-alibaba-sentinel"><a class="markdownIt-Anchor" href="#四服务熔断-spring-cloud-alibaba-sentinel">#</a> 四。服务熔断 Spring Cloud Alibaba Sentinel</h2>
+<p>服务保护技术</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Sentinel</th>
+<th>Hystrix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>线程隔离</td>
+<td>信号量隔离</td>
+<td>线程池隔离 / 信号量隔离</td>
+</tr>
+<tr>
+<td>熔断策略</td>
+<td>基于慢调用比例或异常比例</td>
+<td>基于异常比率</td>
+</tr>
+<tr>
+<td>限流</td>
+<td>基于 QPS，支持流量整形</td>
+<td>有限的支持</td>
+</tr>
+<tr>
+<td>Fallback</td>
+<td>支持</td>
+<td>支持</td>
+</tr>
+<tr>
+<td>控制台</td>
+<td>开箱即用，可配置规则、查看秒级监控、机器发现等</td>
+<td>不完善</td>
+</tr>
+<tr>
+<td>配置方式</td>
+<td>基于控制台，重启后失效</td>
+<td>基于注解或配置文件，永久生效</td>
+</tr>
+</tbody>
+</table>
+<h4 id="41-sentinel快速入门"><a class="markdownIt-Anchor" href="#41-sentinel快速入门">#</a> 4.1 Sentinel 快速入门</h4>
+<p>安装</p>
+<ol>
+<li>
+<p>下载 jar 包<br>
+<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FsaWJhYmEvU2VudGluZWwvcmVsZWFzZXM="> Releases・alibaba/Sentinel</span></p>
+</li>
+<li>
+<p>运行</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -Dserver.port=8090 -Dcsp.sentinel.dashboard.server=localhost:8090 -Dproject.name=sentinel-dashboard -jar sentinel-dashboard.jar</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>访问 <span class="exturl" data-url="aHR0cDovL2xvY2FsaG9zdDo4MDgw">http://localhost:8090</span></p>
+</li>
+</ol>
+<p>微服务整合</p>
+<ol>
+<li>
+<p>引入依赖</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--sentinel--&gt;</span><br><span class="line">&lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;com.alibaba.cloud&lt;/groupId&gt; </span><br><span class="line">    &lt;artifactId&gt;spring-cloud-starter-alibaba-sentinel&lt;/artifactId&gt;</span><br><span class="line">&lt;/dependency&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>配置</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">spring:</span></span><br><span class="line">  <span class="attr">cloud:</span> </span><br><span class="line">    <span class="attr">sentinel:</span></span><br><span class="line">      <span class="attr">transport:</span></span><br><span class="line">        <span class="attr">dashboard:</span> <span class="string">localhost:8090</span></span><br><span class="line">      <span class="attr">http-method-specify:</span> <span class="literal">true</span> <span class="comment"># 开启请求方式前缀</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>请求限流</p>
+<p>​		在 sentinel 控制台中，添加流控，选择 QPS, 设置单机阈值， 就是最大 QPS 为多少</p>
+<p>线程隔离</p>
+<p>当商品服务出现阻塞或故障时，调用商品服务的购物车服务可能因此而被拖慢，甚至资源耗尽。所以必须限制购物车服务中查询商品这个业务的可用线程数，实现线程隔离。.</p>
+<p>在 sentinel 控制台中，会出现 Feign 接口的簇点资源，点击后面的流控按钮，即可配置线程隔离：</p>
+<h2 id="五分布式事务spring-cloud-alibaba-seate"><a class="markdownIt-Anchor" href="#五分布式事务spring-cloud-alibaba-seate">#</a> 五。分布式事务：Spring Cloud Alibaba  Seate</h2>
+<p>Seata 架构<br>
+ Seata 事务管理中有三个重要的角色：</p>
+<ul>
+<li>TC (Transaction Coordinator) - 事务协调者：维护全局和分支事务的状态，协调全局事务提交或回滚。</li>
+<li>TM (Transaction Manager) - 事务管理器：定义全局事务的范围、开始全局事务、提交或回滚全局事务。</li>
+<li>RM (Resource Manager) - 资源管理器：管理分支事务，与 TC 交谈以注册分支事务和报告分支事务的状态</li>
+</ul>
+<h4 id="51部署tc"><a class="markdownIt-Anchor" href="#51部署tc">#</a> 5.1 部署 TC</h4>
+<ol>
+<li>
+<p>准备数据库</p>
+</li>
+<li>
+<p>准备配置文件</p>
+</li>
+<li>
+<p>run</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">docker run --name seata \</span><br><span class="line">-p 8099:8099 \</span><br><span class="line">-p 7099:7099 \</span><br><span class="line">-e SEATA_IP=192.168.100.135 \</span><br><span class="line">-v ./seata:/seata-server/resources \</span><br><span class="line">--privileged=true \</span><br><span class="line">--network hm-net \</span><br><span class="line">-d \</span><br><span class="line">seataio/seata-server:1.5.2</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h4 id="52微服务集成"><a class="markdownIt-Anchor" href="#52微服务集成">#</a> 5.2 微服务集成</h4>
+<ol>
+<li>
+<p>导入依赖</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--统一配置管理--&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.alibaba.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-starter-alibaba-nacos-config<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!--读取bootstrap文件--&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-starter-bootstrap<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!--seata--&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.alibaba.cloud<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-cloud-starter-alibaba-seata<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li>
+<p>配置，让服务找到 TC</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">seata:</span></span><br><span class="line">  <span class="attr">registry:</span> <span class="comment"># TC服务注册中心的配置，微服务根据这些信息去注册中心获取tc服务地址</span></span><br><span class="line">    <span class="attr">type:</span> <span class="string">nacos</span> <span class="comment"># 注册中心类型 nacos</span></span><br><span class="line">    <span class="attr">nacos:</span></span><br><span class="line">      <span class="attr">server-addr:</span> <span class="number">192.168</span><span class="number">.100</span><span class="number">.135</span><span class="string">:8848</span> <span class="comment"># nacos地址</span></span><br><span class="line">      <span class="attr">namespace:</span> <span class="string">&quot;&quot;</span> <span class="comment"># namespace，默认为空</span></span><br><span class="line">      <span class="attr">group:</span> <span class="string">DEFAULT_GROUP</span> <span class="comment"># 分组，默认是DEFAULT_GROUP</span></span><br><span class="line">      <span class="attr">application:</span> <span class="string">seata-server</span> <span class="comment"># seata服务名称</span></span><br><span class="line">      <span class="attr">username:</span> <span class="string">nacos</span></span><br><span class="line">      <span class="attr">password:</span> <span class="string">nacos</span></span><br><span class="line">  <span class="attr">tx-service-group:</span> <span class="string">hmall</span> <span class="comment"># 事务组名称</span></span><br><span class="line">  <span class="attr">service:</span></span><br><span class="line">    <span class="attr">vgroup-mapping:</span> <span class="comment"># 事务组与tc集群的映射关系</span></span><br><span class="line">      <span class="attr">hmall:</span> <span class="string">&quot;default&quot;</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h4 id="53-xa模式"><a class="markdownIt-Anchor" href="#53-xa模式">#</a> 5.3 XA 模式</h4>
+<p><strong>XA 规范</strong>是 X/Open 组织定义的分布式事务处理（DTP，Distributed Transaction Processing）标准，XA 规范描述了全局的 <strong>TM</strong> 与局部的 <strong>RM</strong> 之间的接口，几乎所有主流的关系型数据库都对 XA 规范提供了支持。Seata 的 XA 模式如下：</p>
+<p><img data-src="C:%5CUsers%5Clx%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1754231119740.png" alt="1754231119740"></p>
+<p>实现 XA 模式<br>
+ Seata 的 starter 已经完成了 XA 模式的自动装配，实现非常简单，步骤如下：</p>
+<ol>
+<li>修改 application.yml 文件（每个参与事务的微服务），开启 XA 模式：</li>
+</ol>
+<p>seata:<br>
+data-source-proxy-mode: XA # 开启数据源代理的 XA 模式</p>
+<p>2. 给发起全局事务的入口方法添加 @GlobalTransactional 注解，本例中是 OrderServiceImpl 中的 create 方法：</p>
+<p>@Override<br>
+@GlobalTransactional<br>
+public Long createOrder (OrderFormDTO order) {<br>
+// 创建订单… 略<br>
+ // 清理购物车… 略<br>
+ // 扣减库存… 略<br>
+ return order.getId ();<br>
+}</p>
+<p>3. 重启服务并测试</p>
+<h4 id="54-at模式"><a class="markdownIt-Anchor" href="#54-at模式">#</a> 5.4 AT 模式</h4>
+<p>Seata 主推的是 AT 模式，AT 模式同样是分阶段提交的事务模型，不过缺弥补了 XA 模型中资源锁定周期过长的缺陷。<br>
+阶段一 RM 的工作：</p>
+<ul>
+<li>注册分支事务</li>
+<li>记录 undo-log（数据快照）</li>
+<li>执行业务 sql 并提交</li>
+<li>报告事务状态</li>
+</ul>
+<p><img data-src="C:%5CUsers%5Clx%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1754231897521.png" alt="1754231897521"></p>
+<p>实现：</p>
+<p>实现 AT 模式<br>
+首先，添加资料中的 seata-at.sql 到微服务对应的数据库中：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE IF NOT EXISTS `undo_log`</span><br><span class="line">(</span><br><span class="line">`branch_id` BIGINT NOT NULL COMMENT &#x27; 分支事务 id&#x27;,</span><br><span class="line">`xid` VARCHAR (128) NOT NULL COMMENT &#x27; 全局事务 id&#x27;,</span><br><span class="line">`context` VARCHAR(128) NOT NULL COMMENT &#x27;undo_log context,such as serialization&#x27;,</span><br><span class="line">`rollback_info` LONGBLOB NOT NULL COMMENT &#x27;rollback info&#x27;,</span><br><span class="line">`log_status` INT(11) NOT NULL COMMENT &#x27;0:normal status,1:defense status&#x27;,</span><br><span class="line">`log_created` DATETIME(6) NOT NULL COMMENT &#x27;create datetime&#x27;,</span><br><span class="line">`log_modified` DATETIME(6) NOT NULL COMMENT &#x27;modify datetime&#x27;,</span><br><span class="line">UNIQUE KEY `ux_undo_log` (`xid`, `branch_id`)</span><br><span class="line">) ENGINE = InnoDB</span><br><span class="line">AUTO_INCREMENT = 1</span><br><span class="line">DEFAULT CHARSET = utf8mb4 COMMENT =&#x27;AT transaction mode undo table&#x27;;</span><br></pre></td></tr></table></figure>
+<p>然后，修改 application.yml 文件，将事务模式修改为 AT 模式：</p>
+<p>seata:<br>
+data-source-proxy-mode: AT # 开启数据源代理的 AT 模式</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">简述 AT 模式与 XA 模式最大的区别是什么？</span><br><span class="line"></span><br><span class="line">XA 模式一阶段不提交事务，锁定资源；AT 模式一阶段直接提交，不锁定资源。</span><br><span class="line">XA 模式依赖数据库机制实现回滚；AT 模式利用数据快照实现数据回滚。</span><br><span class="line">XA 模式强一致；AT 模式最终一致</span><br></pre></td></tr></table></figure>
+
+  </div>
+
+   <footer>
+
+    <div class="meta">
+  <span class="item">
+    <span class="icon">
+      <i class="ic i-calendar-check"></i>
+    </span>
+    <span class="text">更新于</span>
+    <time title="修改时间：2025-08-04 19:06:04" itemprop="dateModified" datetime="2025-08-04T19:06:04+08:00">2025-08-04</time>
+  </span>
+  <span id="2025/08/04/demo11/" class="item leancloud_visitors" data-flag-title="spring cloud" title="阅读次数">
+      <span class="icon">
+        <i class="ic i-eye"></i>
+      </span>
+      <span class="text">阅读次数</span>
+      <span class="leancloud-visitors-count"></span>
+      <span class="text">次</span>
+  </span>
+</div>
+
+      
+<div class="reward">
+  <button><i class="ic i-heartbeat"></i> 赞赏</button>
+  <p>请我喝[茶]~(￣▽￣)~*</p>
+  <div id="qr">
+      
+      <div>
+        <img data-src="/images/wxpay.jpg" alt="李涛 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div>
+        <img data-src="/images/zifubao.jpg" alt="李涛 支付宝">
+        <p>支付宝</p>
+      </div>
+  </div>
+</div>
+
+      
+
+<div id="copyright">
+<ul>
+  <li class="author">
+    <strong>本文作者： </strong>李涛 <i class="ic i-at"><em>@</em></i>scidag
+  </li>
+  <li class="link">
+    <strong>本文链接：</strong>
+    <a href="http://example.com/2025/08/04/demo11/" title="spring cloud">http://example.com/2025/08/04/demo11/</a>
+  </li>
+  <li class="license">
+    <strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+  </footer>
+
+</article>
+
+  </div>
+  
+
+<div class="post-nav">
+    <div class="item left">
+      
+
+  <a href="/2025/07/20/demo10/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva2.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicliwyw55j20zk0m8hdt.jpg" title="nacos">
+  <span class="type">上一篇</span>
+  <span class="category"><i class="ic i-flag"></i> </span>
+  <h3>nacos</h3>
+  </a>
+
+    </div>
+    <div class="item right">
+    </div>
+</div>
+
+  
+  <div class="wrap" id="comments"></div>
+
+
+        </div>
+        <div id="sidebar">
+          
+
+<div class="inner">
+
+  <div class="panels">
+    <div class="inner">
+      <div class="contents panel pjax" data-title="文章目录">
+          <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83-spring-cloud-alibaba-nacos"><span class="toc-number">1.</span> <span class="toc-text"> 一。注册中心 &#x2F; 配置中心 Spring Cloud Alibaba Nacos</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83"><span class="toc-number">1.1.</span> <span class="toc-text"> 1. 注册中心</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#11-%E6%B3%A8%E5%86%8C%E6%9C%8D%E5%8A%A1"><span class="toc-number">1.1.1.</span> <span class="toc-text"> 1.1 注册服务</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#12-%E6%9C%8D%E5%8A%A1%E5%8F%91%E7%8E%B0"><span class="toc-number">1.1.2.</span> <span class="toc-text"> 1.2 服务发现</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#13-%E5%9F%BA%E6%9C%ACapi%E8%B0%83%E7%94%A8"><span class="toc-number">1.1.3.</span> <span class="toc-text"> 1.3 基本 Api 调用</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83"><span class="toc-number">1.2.</span> <span class="toc-text"> 2. 配置中心</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3%E6%89%A9%E5%B1%95"><span class="toc-number">1.3.</span> <span class="toc-text"> 3. 扩展：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E7%BD%91%E5%85%B3-spring-cloud-geteway"><span class="toc-number">2.</span> <span class="toc-text"> 二。网关 Spring　Cloud　GeteWay</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E8%BF%9C%E7%A8%8B%E8%B0%83%E7%94%A8-spring-cloud-openfeign"><span class="toc-number">3.</span> <span class="toc-text"> 三。远程调用： Spring Cloud OpenFeign</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#openfeign-%E5%AF%B9resttemplete-%E7%9A%84%E5%8D%87%E7%BA%A7"><span class="toc-number">3.0.0.1.</span> <span class="toc-text"> OpenFeign 对 RestTemplete 的升级</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8"><span class="toc-number">3.0.0.1.1.</span> <span class="toc-text"> 快速入门</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#%E5%8A%A0%E5%85%A5%E8%BF%9E%E6%8E%A5%E6%B1%A0%E6%8F%90%E9%AB%98%E6%80%A7%E8%83%BD"><span class="toc-number">3.0.0.1.2.</span> <span class="toc-text"> 加入连接池，提高性能</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E6%9C%8D%E5%8A%A1%E7%86%94%E6%96%AD-spring-cloud-alibaba-sentinel"><span class="toc-number">4.</span> <span class="toc-text"> 四。服务熔断 Spring Cloud Alibaba Sentinel</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#41-sentinel%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8"><span class="toc-number">4.0.1.</span> <span class="toc-text"> 4.1 Sentinel 快速入门</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%94%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1spring-cloud-alibaba-seate"><span class="toc-number">5.</span> <span class="toc-text"> 五。分布式事务：Spring Cloud Alibaba  Seate</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#51%E9%83%A8%E7%BD%B2tc"><span class="toc-number">5.0.1.</span> <span class="toc-text"> 5.1 部署 TC</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#52%E5%BE%AE%E6%9C%8D%E5%8A%A1%E9%9B%86%E6%88%90"><span class="toc-number">5.0.2.</span> <span class="toc-text"> 5.2 微服务集成</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#53-xa%E6%A8%A1%E5%BC%8F"><span class="toc-number">5.0.3.</span> <span class="toc-text"> 5.3 XA 模式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#54-at%E6%A8%A1%E5%BC%8F"><span class="toc-number">5.0.4.</span> <span class="toc-text"> 5.4 AT 模式</span></a></li></ol></li></ol></li></ol>
+      </div>
+      <div class="related panel pjax" data-title="系列文章">
+      </div>
+      <div class="overview panel" data-title="站点概览">
+        <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <img class="image" itemprop="image" alt="李涛"
+      data-src="/images/myavatar.jpg">
+  <p class="name" itemprop="name">李涛</p>
+  <div class="description" itemprop="description">李涛的个人博客</div>
+</div>
+
+<nav class="state">
+    <div class="item posts">
+      <a href="/archives/">
+        <span class="count">14</span>
+        <span class="name">文章</span>
+      </a>
+    </div>
+</nav>
+
+<div class="social">
+</div>
+
+<ul class="menu">
+  
+    
+  <li class="item">
+    <a href="/" rel="section"><i class="ic i-home"></i>首页</a>
+  </li>
+
+
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+  <ul id="quick">
+    <li class="prev pjax">
+    </li>
+    <li class="up"><i class="ic i-arrow-up"></i></li>
+    <li class="down"><i class="ic i-arrow-down"></i></li>
+    <li class="next pjax">
+    </li>
+    <li class="percent"></li>
+  </ul>
+</div>
+
+
+        </div>
+        <div class="dimmer"></div>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <div class="widgets">
+          
+<div class="rpost pjax">
+  <h2>随机文章</h2>
+  <ul>
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2025/07/16/demo9/" title="docker">docker</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2025/07/14/demo5/" title="Spring Boot">Spring Boot</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2025/07/14/demo2/" title="Mybatis">Mybatis</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2025/07/20/demo10/" title="nacos">nacos</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2025/07/16/demo8/" title="session and cookie">session and cookie</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2025/07/14/demo4/" title="spring mvc">spring mvc</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2025/07/14/demo1/" title="jdbc">jdbc</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2025/07/14/demo3/" title="spring">spring</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2025/07/14/demo6-1/" title="MySQL">MySQL</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2025/07/14/hello-world/" title="Hello World">Hello World</a></span>
+  </li>
+
+  </ul>
+</div>
+<div>
+  <h2>最新评论</h2>
+  <ul class="leancloud-recent-comment"></ul>
+</div>
+
+        </div>
+        <div class="status">
+  <div class="copyright">
+    
+    &copy; 2010 – 
+    <span itemprop="copyrightYear">2025</span>
+    <span class="with-love">
+      <i class="ic i-sakura rotate"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">李涛 @ scidag的个人博客</span>
+  </div>
+  <div class="powered-by">
+    基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
+  </div>
+</div>
+
+      </div>
+    </footer>
+  </div>
+<script data-config type="text/javascript">
+  var LOCAL = {
+    path: '2025/08/04/demo11/',
+    favicon: {
+      show: "（●´3｀●）やれやれだぜ",
+      hide: "(´Д｀)大変だ！"
+    },
+    search : {
+      placeholder: "文章搜索",
+      empty: "关于 「 ${query} 」，什么也没搜到",
+      stats: "${time} ms 内找到 ${hits} 条结果"
+    },
+    valine: true,fancybox: true,
+    copyright: '复制成功，转载请遵守 <i class="ic i-creative-commons"></i>BY-NC-SA 协议。',
+    ignores : [
+      function(uri) {
+        return uri.includes('#');
+      },
+      function(uri) {
+        return new RegExp(LOCAL.path+"$").test(uri);
+      }
+    ]
+  };
+</script>
+
+<script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+
+<script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
+
+<script src="/js/app.js?v=0.2.5"></script>
+
+
+
+
+</body>
+</html>
